@@ -1,0 +1,32 @@
+{
+  "name": "vite-plugin-src",
+  "version": "0.1.0",
+  "description": "set vite root directory to src and fix other directory",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc -d",
+    "watch": "tsc -w"
+  },
+  "author": "zhuweiyou <i@zhuweiyou.com>",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "src",
+    "vite-root",
+    "root-src",
+    "vite-root-src",
+    "vite-plugin",
+    "vite-plugin-src"
+  ],
+  "homepage": "https://github.com/zhuweiyou/vite-plugin-src#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuweiyou/vite-plugin-src.git"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3",
+    "vite": "^2.8.6"
+  }
+}
