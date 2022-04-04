@@ -1,7 +1,7 @@
 import { Plugin } from 'vite'
 import { resolve } from 'path'
 
-const r = (s: string) => resolve(__dirname, s)
+const r = (s: string) => resolve(process.cwd(), s)
 
 export function ViteSrcPlugin(): Plugin {
   return {

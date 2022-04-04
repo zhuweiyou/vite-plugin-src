@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ViteSrcPlugin = void 0;
 const path_1 = require("path");
-const r = (s) => (0, path_1.resolve)(__dirname, s);
+const r = (s) => (0, path_1.resolve)(process.cwd(), s);
 function ViteSrcPlugin() {
     return {
         name: 'vite-plugin-src',
