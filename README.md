@@ -1,4 +1,4 @@
-# vite-plugin-src
+# ~~vite-plugin-src~~ [move to vite-plugin-mp](https://github.com/zhuweiyou/vite-plugin-mp)
 
 set vite root directory to src and fix other directory
 
